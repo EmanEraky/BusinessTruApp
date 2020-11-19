@@ -1,0 +1,126 @@
+
+                                                       
+                                                   
+    
+                 
+                              
+                                                              
+                 
+                           
+                                                                        
+           
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:tag="layout/item_business_0"                             
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/business_img"
+                android:layout_width="130dp"
+                android:scaleType="fitXY"
+                android:tag="binding_1"                         
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_count"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="VectorDrawableCompat" />
+
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:hint="@string/name"
+                android:tag="binding_2"           
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/business_img"
+                app:layout_constraintTop_toTopOf="@+id/business_img" />
+
+            <TextView
+                android:id="@+id/txt_category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:tag="binding_3"                              
+                android:textSize="15sp"
+                android:textColor="#8A000000"
+                android:hint="@string/category"
+                app:layout_constraintEnd_toStartOf="@+id/txt_price"
+                app:layout_constraintStart_toEndOf="@+id/business_img"
+                app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+            <TextView
+                android:id="@+id/txt_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:tag="binding_4"            
+                android:textColor="#8A000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txt_category"
+                app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="@style/customRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="false"
+                android:isIndicator="true"
+                android:max="5"
+                android:tag="binding_5"                     
+                android:scaleX="1"
+                android:scaleY="1"
+                android:transformPivotX="5dp"
+                android:transformPivotY="5dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/txt_count"
+                app:layout_constraintStart_toEndOf="@+id/business_img"
+                app:layout_constraintTop_toBottomOf="@id/txt_category" />
+
+
+            <TextView
+                android:id="@+id/txt_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:hint="@string/review_count"
+                android:layout_marginBottom="10dp"
+                android:textColor="#8A000000"
+                android:tag="binding_6"                      
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rating"
+                app:layout_constraintTop_toBottomOf="@id/txt_category" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+         

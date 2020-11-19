@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TruDocApp</string>
+    <string name="name">name</string>
+    <string name="category">category</string>
+    <string name="price">price</string>
+    <string name="review_count">review count</string>
+    <string name="address">address</string>
+    <string name="phone">phone</string>
+</resources>

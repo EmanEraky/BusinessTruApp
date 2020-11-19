@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\eman\\TruDocApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\eman\\TruDocApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\eman\\TruDocApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_business.xml",
+        "source": "D:\\eman\\TruDocApp\\app\\src\\main\\res\\layout\\item_business.xml"
+    },
+    {
+        "merged": "D:\\eman\\TruDocApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_details.xml",
+        "source": "D:\\eman\\TruDocApp\\app\\src\\main\\res\\layout\\activity_details.xml"
+    }
+]
