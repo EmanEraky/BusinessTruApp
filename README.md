@@ -12,6 +12,8 @@
 
 6- Create useCase to get data 
 
-7- Setting up the ViewModel used for present data from useCase
+7- Setting up the ViewModel used for present data from useCase in Ui
 
-8
+8-use clean Arch to make app readable and able to execute solid priciple, 
+ use daggerHilt to inject instance and use it singleton to make app easy testing and not coupling 
+ use Mvvm architecture to update Ui when data change.
