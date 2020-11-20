@@ -1,6 +1,6 @@
 package com.eman.trudocapp.data.repo;
 
-import com.eman.trudocapp.data.ApiService;
+import com.eman.trudocapp.data.api.ApiService;
 import dagger.internal.Factory;
 import javax.annotation.Generated;
 import javax.inject.Provider;

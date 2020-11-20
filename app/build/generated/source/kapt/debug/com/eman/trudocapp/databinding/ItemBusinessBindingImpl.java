@@ -117,7 +117,6 @@ public class ItemBusinessBindingImpl extends ItemBusinessBinding implements com.
             mDirtyFlags = 0;
         }
         java.lang.String businessApiPrice = null;
-        java.lang.String businessApiCategoriesGetInt0Title = null;
         java.lang.String businessApiName = null;
         java.util.List<com.eman.trudocapp.domain.model.Categories> businessApiCategories = null;
         java.lang.String javaLangStringBusinessApiReviewCount = null;
@@ -125,7 +124,6 @@ public class ItemBusinessBindingImpl extends ItemBusinessBinding implements com.
         int businessApiReviewCount = 0;
         com.eman.trudocapp.domain.model.Business businessApi = mBusinessApi;
         com.eman.trudocapp.presentation.NavigationListener listener = mListener;
-        com.eman.trudocapp.domain.model.Categories businessApiCategoriesGetInt0 = null;
         java.lang.String businessApiImageUrl = null;
 
         if ((dirtyFlags & 0x5L) != 0) {
@@ -148,18 +146,8 @@ public class ItemBusinessBindingImpl extends ItemBusinessBinding implements com.
                 }
 
 
-                if (businessApiCategories != null) {
-                    // read businessApi.categories.get(0)
-                    businessApiCategoriesGetInt0 = businessApiCategories.get(0);
-                }
                 // read ("") + (businessApi.review_count)
                 javaLangStringBusinessApiReviewCount = ("") + (businessApiReviewCount);
-
-
-                if (businessApiCategoriesGetInt0 != null) {
-                    // read businessApi.categories.get(0).title
-                    businessApiCategoriesGetInt0Title = businessApiCategoriesGetInt0.getTitle();
-                }
         }
         // batch finished
         if ((dirtyFlags & 0x5L) != 0) {
@@ -168,7 +156,7 @@ public class ItemBusinessBindingImpl extends ItemBusinessBinding implements com.
             com.eman.trudocapp.utils.DataBindAdapterKt.setImageUrl(this.businessImg, businessApiImageUrl);
             com.eman.trudocapp.utils.DataBindAdapterKt.setRatingBusiness(this.rating, businessApiRating);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.titleText, businessApiName);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtCategory, businessApiCategoriesGetInt0Title);
+            com.eman.trudocapp.utils.DataBindAdapterKt.setCategory(this.txtCategory, businessApiCategories);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtCount, javaLangStringBusinessApiReviewCount);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtPrice, businessApiPrice);
         }

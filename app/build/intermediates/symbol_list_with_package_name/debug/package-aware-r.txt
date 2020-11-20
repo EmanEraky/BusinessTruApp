@@ -1606,6 +1606,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_search
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1816,6 +1817,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edt_name
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -2074,6 +2076,7 @@ id triangle
 id txt_address
 id txt_category
 id txt_count
+id txt_noFound
 id txt_price
 id txt_review
 id txt_title
@@ -2334,6 +2337,8 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name
+string name_business
+string not_found_business_in_new_york_city
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

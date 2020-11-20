@@ -21,7 +21,7 @@
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 16
 17    <application
-17-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:9:5-25:19
+17-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:9:5-26:19
 18        android:name="com.eman.trudocapp.App"
 18-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:10:9-28
 19        android:allowBackup="true"
@@ -37,37 +37,39 @@
 24-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:14:9-54
 25        android:supportsRtl="true"
 25-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:15:9-35
-26        android:testOnly="true"
-27        android:theme="@style/AppTheme" >
-27-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:16:9-40
-28        <activity android:name="com.eman.trudocapp.presentation.ui.detail.DetailsActivity" />
-28-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:9-93
-28-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:19-91
-29        <activity android:name="com.eman.trudocapp.presentation.ui.main.MainActivity" >
-29-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:9-24:20
+26        android:theme="@style/AppTheme" >
+26-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:16:9-40
+27        <activity android:name="com.eman.trudocapp.presentation.ui.detail.DetailsActivity" />
+27-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:9-93
+27-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:19-91
+28        <activity
+28-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:9-25:20
+29            android:name="com.eman.trudocapp.presentation.ui.main.MainActivity"
 29-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:19-86
-30            <intent-filter>
-30-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:19:13-23:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:17-69
-31-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:22:17-77
-33-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:22:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-39            android:authorities="com.eman.trudocapp.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-42    </application>
-43
-44</manifest>
+30            android:windowSoftInputMode="stateHidden|adjustPan" >
+30-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:19:13-64
+31            <intent-filter>
+31-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:21:17-69
+32-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:23:17-77
+34-->D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+40            android:authorities="com.eman.trudocapp.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+43    </application>
+44
+45</manifest>

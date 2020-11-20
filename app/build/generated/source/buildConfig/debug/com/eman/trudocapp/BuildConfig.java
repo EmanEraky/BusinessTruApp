@@ -11,5 +11,5 @@ public final class BuildConfig {
   public static final String VERSION_NAME = "1.0";
   // Fields from default config.
   public static final String API_Key = "Bearer Bho2orAI1OVL6Nz1IuXWMlniqDVF6AHuaI2Eb5Er2SjVkf36xHSADyj57j03yJ2Lzx1p6p6wtXQbaYiGsZaKdcPXfFLoWWg5XX7b5XwVltfhyn3dNQgVIC5-fIixX3Yx";
-  public static final String BASE_URL = "https://api.yelp.com/v3/";
+  public static final String BASE_URL = "https://api.yelp.com/v3/businesses/";
 }

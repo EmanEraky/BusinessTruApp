@@ -6,4 +6,6 @@
     <string name="review_count">review count</string>
     <string name="address">address</string>
     <string name="phone">phone</string>
+    <string name="name_business">name Business Search</string>
+    <string name="not_found_business_in_new_york_city">Not found business in New York City</string>
 </resources>

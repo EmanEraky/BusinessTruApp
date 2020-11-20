@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\24283b7e53fa526e07a0abe8d44cbcee\databinding-adapters-4.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9497b28d5c68e507537b67b285073d3e\databinding-runtime-4.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2839e80ce151d1ce43055d0cc92d2ef2\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -57,20 +57,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\1a1d485861d4979b9197c76630607a32\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\96aaf984c9ac242c635e317a6dec36a5\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\151982652afab294e7d7131fd754369a\jetified-dagger-lint-aar-2.28\AndroidManifest.xml:16:1-18:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -83,7 +83,7 @@ ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:9:5-25:19
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:9:5-26:19
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\be5ee1d647aa105b66424ce41ace9e3f\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\be5ee1d647aa105b66424ce41ace9e3f\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\df9b4ddc4debe6749bd83cc554db8291\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -121,19 +121,21 @@ ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:9-93
 	android:name
 		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:17:19-91
 activity#com.eman.trudocapp.presentation.ui.main.MainActivity
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:windowSoftInputMode
+		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:19:13-64
 	android:name
 		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:18:19-86
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml
@@ -263,8 +265,8 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\ca
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\8e335797355d74df9217985fa69f3b6f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-27:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\eman\TruDocApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE

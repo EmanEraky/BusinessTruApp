@@ -8,7 +8,6 @@ import com.eman.trudocapp.domain.model.Business
 import com.eman.trudocapp.domain.usecases.getDetailsBusinessUseCase
 import com.eman.trudocapp.utils.NetworkHelper
 import com.eman.trudocapp.utils.Resource
-//import kotlinx.coroutines.launch
 import kotlinx.coroutines.launch
 
 class DetailsViewModel @ViewModelInject constructor(

@@ -19,12 +19,12 @@ class MainViewModel @ViewModelInject constructor
 
 
 
-    fun getBusinessResponse(offset :Int) {
+    fun getBusinessResponse(offset :Int,term :String) {
         viewModelScope.launch {
             _business.postValue(Resource.loading(null))
             if (networkHelper.isNetworkConnected()) {
                 try {
-                    val result = mainRepositoryUseCase.getBusiness("NYC", 30, offset)
+                    val result = mainRepositoryUseCase.getBusiness(offset,term)
                     _business.postValue(Resource.success(result))
                 } catch (e: Exception) {
                     _business.postValue(Resource.error(e.message.toString(), null))

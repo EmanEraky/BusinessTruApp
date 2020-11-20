@@ -1,6 +1,6 @@
 package com.eman.trudocapp.domain.usecases;
 
-import com.eman.trudocapp.data.ApiDetailsHelper;
+import com.eman.trudocapp.data.repo.ApiDetailsHelper;
 import dagger.internal.Factory;
 import javax.annotation.Generated;
 import javax.inject.Provider;

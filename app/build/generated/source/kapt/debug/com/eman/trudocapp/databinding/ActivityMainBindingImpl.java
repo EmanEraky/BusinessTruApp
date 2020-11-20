@@ -15,7 +15,9 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.progress_bar, 2);
+        sViewsWithIds.put(R.id.edt_name, 2);
+        sViewsWithIds.put(R.id.progress_bar, 3);
+        sViewsWithIds.put(R.id.txt_noFound, 4);
     }
     // views
     @NonNull
@@ -26,12 +28,14 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ProgressBar) bindings[2]
+            , (androidx.appcompat.widget.AppCompatEditText) bindings[2]
+            , (android.widget.ProgressBar) bindings[3]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
+            , (android.widget.TextView) bindings[4]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

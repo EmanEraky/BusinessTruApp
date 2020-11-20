@@ -17,7 +17,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField 'String', 'BASE_URL', "\"https://api.yelp.com/v3/\""
+        buildConfigField 'String', 'BASE_URL', "\"https://api.yelp.com/v3/businesses/\""
 
         buildConfigField 'String', 'API_Key', '"Bearer Bho2orAI1OVL6Nz1IuXWMlniqDVF6AHuaI2Eb5Er2SjVkf36xHSADyj57j03yJ2Lzx1p6p6wtXQbaYiGsZaKdcPXfFLoWWg5XX7b5XwVltfhyn3dNQgVIC5-fIixX3Yx"'
 

@@ -1,9 +1,11 @@
 package com.eman.trudocapp.presentation.module
 
 import com.eman.trudocapp.BuildConfig
-import com.eman.trudocapp.data.*
+import com.eman.trudocapp.data.api.ApiService
 import com.eman.trudocapp.data.repo.ApiDetailsRepo
 import com.eman.trudocapp.data.repo.ApiBusinessRepo
+import com.eman.trudocapp.data.repo.ApiDetailsHelper
+import com.eman.trudocapp.data.repo.ApiHelper
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

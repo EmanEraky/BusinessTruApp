@@ -9,11 +9,11 @@ import androidx.hilt.lifecycle.ViewModelFactoryModules_ActivityModule_ProvideFac
 import androidx.hilt.lifecycle.ViewModelFactoryModules_FragmentModule_ProvideFactoryFactory;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
-import com.eman.trudocapp.data.ApiDetailsHelper;
-import com.eman.trudocapp.data.ApiHelper;
-import com.eman.trudocapp.data.ApiService;
+import com.eman.trudocapp.data.api.ApiService;
 import com.eman.trudocapp.data.repo.ApiBusinessRepo;
+import com.eman.trudocapp.data.repo.ApiDetailsHelper;
 import com.eman.trudocapp.data.repo.ApiDetailsRepo;
+import com.eman.trudocapp.data.repo.ApiHelper;
 import com.eman.trudocapp.domain.usecases.getDetailsBusinessUseCase;
 import com.eman.trudocapp.domain.usecases.getMainBusinessUseCase;
 import com.eman.trudocapp.presentation.module.ApplicationModule;
@@ -341,7 +341,7 @@ public final class DaggerApp_HiltComponents_ApplicationC extends App_HiltCompone
       }
 
       @Override
-      public void injectDetailsActivity(DetailsActivity arg0) {
+      public void injectDetailsActivity(DetailsActivity detailsActivity) {
       }
 
       @Override

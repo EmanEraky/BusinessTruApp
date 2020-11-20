@@ -3,7 +3,12 @@ package com.eman.trudocapp.presentation.ui.main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.KeyEvent
 import android.view.View
+import android.view.inputmethod.EditorInfo
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
@@ -29,6 +34,8 @@ class MainActivity : AppCompatActivity(), NavigationListener {
     //list for holding data
     lateinit var list: ArrayList<Business>
     var startPos = 0
+    var name = ""
+    var flagSearch = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +43,38 @@ class MainActivity : AppCompatActivity(), NavigationListener {
         list = ArrayList()
         adapter = MainBusinessAdapter(arrayListOf(), this)
         binding.mainAdapter = adapter
-        mainViewModel.getBusinessResponse(0)
+
+        binding.edtName.setOnEditorActionListener(object : TextView.OnEditorActionListener {
+            override fun onEditorAction(p0: TextView?, actionId: Int, p2: KeyEvent?): Boolean {
+                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+                    flagSearch = true
+                    name = binding.edtName.text.toString()
+                    mainViewModel.getBusinessResponse(0, name)
+                    return true
+                }
+                return false
+            }
+        })
+
+        binding.edtName.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
+
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                if (p0?.length == 0) {
+                    flagSearch = true
+                    name = p0.toString()
+                    mainViewModel.getBusinessResponse(0, "")
+                }
+            }
+
+            override fun afterTextChanged(p0: Editable?) {
+            }
+
+        })
+
+        mainViewModel.getBusinessResponse(0, "")
+
         setObserveBusiness()
         addScrollerListener()
     }
@@ -60,7 +98,7 @@ class MainActivity : AppCompatActivity(), NavigationListener {
                             val rest_count = totalBusiness - listCount
 
                             if ((listCount != totalBusiness) && (rest_count != 0))
-                                mainViewModel.getBusinessResponse(listCount)
+                                mainViewModel.getBusinessResponse(listCount, name)
                             startPos = listCount
                         }
                     }
@@ -94,10 +132,20 @@ class MainActivity : AppCompatActivity(), NavigationListener {
         })
     }
 
+
     private fun renderList(lBusiness: ArrayList<Business>) {
         isLoading = false
+        if (flagSearch) {
+            list = ArrayList()
+            flagSearch = false
+        }
+        if (lBusiness.size == 0) {
+            binding.txtNoFound.visibility = View.VISIBLE
+        } else {
+            binding.txtNoFound.visibility = View.GONE
+        }
         list.addAll(lBusiness)
-        adapter.addData(lBusiness)
+        adapter.addData(list)
         adapter.notifyDataSetChanged()
         binding.recyclerView.layoutManager!!.scrollToPosition(startPos)
     }

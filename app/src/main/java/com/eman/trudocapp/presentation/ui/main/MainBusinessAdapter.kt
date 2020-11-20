@@ -34,8 +34,8 @@ class MainBusinessAdapter(
 
     class DataViewHolder(val binding: ItemBusinessBinding) : RecyclerView.ViewHolder(binding.root)
 
-    fun addData(list: List<Business>) {
-        businesses.addAll(list)
+    fun addData(list: ArrayList<Business>) {
+        businesses=(list)
     }
 
 

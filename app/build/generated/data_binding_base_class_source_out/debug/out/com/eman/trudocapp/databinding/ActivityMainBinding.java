@@ -5,8 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatEditText;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
@@ -18,19 +20,28 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
+  public final AppCompatEditText edtName;
+
+  @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
   public final RecyclerView recyclerView;
 
+  @NonNull
+  public final TextView txtNoFound;
+
   @Bindable
   protected MainBusinessAdapter mMainAdapter;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ProgressBar progressBar, RecyclerView recyclerView) {
+      AppCompatEditText edtName, ProgressBar progressBar, RecyclerView recyclerView,
+      TextView txtNoFound) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.edtName = edtName;
     this.progressBar = progressBar;
     this.recyclerView = recyclerView;
+    this.txtNoFound = txtNoFound;
   }
 
   public abstract void setMainAdapter(@Nullable MainBusinessAdapter mainAdapter);

@@ -1,6 +1,6 @@
 package com.eman.trudocapp.presentation.module;
 
-import com.eman.trudocapp.data.ApiDetailsHelper;
+import com.eman.trudocapp.data.repo.ApiDetailsHelper;
 import com.eman.trudocapp.data.repo.ApiDetailsRepo;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;

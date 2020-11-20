@@ -1,6 +1,6 @@
 package com.eman.trudocapp.presentation.module;
 
-import com.eman.trudocapp.data.ApiService;
+import com.eman.trudocapp.data.api.ApiService;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
 import javax.annotation.Generated;
