@@ -20,6 +20,7 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Eman\.gradle\cache
 MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\43dc2c19f084c90ee27deeae817f9b8d\jetified-hilt-lifecycle-viewmodel-1.0.0-alpha02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\fce422935a7af9c50f9696f731a84267\jetified-hilt-common-1.0.0-alpha02\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:hilt-android:2.28-alpha] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\a6e119446d910074c5f53f0a483b8d77\jetified-hilt-android-2.28-alpha\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\4f0d4ea00aab8d17baf56df39c81852c\paging-runtime-2.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b6151419ce3524cad4e8db35d6c5f82c\jetified-viewbinding-4.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\069acd137313a5d9576ce31a337987dc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\da13f131ec61e5ebfcee06d76882e261\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -172,6 +173,8 @@ MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] C:\Users\Eman\.gradle\cach
 MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\fce422935a7af9c50f9696f731a84267\jetified-hilt-common-1.0.0-alpha02\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.dagger:hilt-android:2.28-alpha] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\a6e119446d910074c5f53f0a483b8d77\jetified-hilt-android-2.28-alpha\AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:hilt-android:2.28-alpha] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\a6e119446d910074c5f53f0a483b8d77\jetified-hilt-android-2.28-alpha\AndroidManifest.xml:18:3-42
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\4f0d4ea00aab8d17baf56df39c81852c\paging-runtime-2.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\4f0d4ea00aab8d17baf56df39c81852c\paging-runtime-2.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b6151419ce3524cad4e8db35d6c5f82c\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b6151419ce3524cad4e8db35d6c5f82c\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\069acd137313a5d9576ce31a337987dc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41

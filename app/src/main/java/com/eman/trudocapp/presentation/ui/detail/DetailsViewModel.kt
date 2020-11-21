@@ -8,10 +8,13 @@ import com.eman.trudocapp.domain.model.Business
 import com.eman.trudocapp.domain.usecases.getDetailsBusinessUseCase
 import com.eman.trudocapp.utils.NetworkHelper
 import com.eman.trudocapp.utils.Resource
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
 class DetailsViewModel @ViewModelInject constructor(
-    var detailsUseCase: getDetailsBusinessUseCase, val networkHelper: NetworkHelper, ) : ViewModel() {
+    var detailsUseCase: getDetailsBusinessUseCase, val networkHelper: NetworkHelper,
+) : ViewModel() {
 
 
     private val _business = MutableLiveData<Resource<Business>>()
@@ -19,23 +22,18 @@ class DetailsViewModel @ViewModelInject constructor(
     val business: MutableLiveData<Resource<Business>>
         get() = _business
 
+
     fun getDetailsBusiness(id: String) {
         viewModelScope.launch {
-            _business.postValue(Resource.loading(null))
             if (networkHelper.isNetworkConnected()) {
-                try {
-                    val result = detailsUseCase.execute(id)
-                    _business.postValue(Resource.success(result))
-                } catch (e: Exception) {
-                    _business.postValue(Resource.error(e.message.toString(), null))
+                detailsUseCase.execute(id).collect {
+                    _business.postValue(it)
                 }
             } else {
                 _business.postValue(Resource.error("No internet connection", null))
             }
+
         }
     }
-
-
-
 
 }
